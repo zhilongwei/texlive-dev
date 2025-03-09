@@ -1,6 +1,6 @@
 {
     "name": "TeX Live",
-    "image": "texlive/texlive",
+    "image": "texlive",
     "customizations": {
         "vscode": {
             "extensions": [
