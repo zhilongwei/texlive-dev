@@ -1,6 +1,6 @@
 {
     "name": "TeX Live",
-    "image": "ghcr.io/xu-cheng/texlive-full:latest",
+    "image": "texlive/texlive",
     "customizations": {
         "vscode": {
             "extensions": [
