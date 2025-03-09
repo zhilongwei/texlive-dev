@@ -10,21 +10,23 @@ ENV DEBIAN_FRONTEND=noninteractive
 #
 RUN apt-get update \
     && apt-get -y install --no-install-recommends \
-       apt-utils \
-       git \
-       procps \
-       curl \
-       texlive-latex-base \
-       texlive-extra-utils \
-       texlive-latex-extra \
-       biber \
-       chktex \
-       latexmk \
-       make \
-       python3-pygments \
-       python3-pkg-resources \
-       texlive-lang-chinese \
-       texlive-lang-japanese \
+        bash \
+        openssh-client \
+        apt-utils \
+        git \
+        procps \
+        curl \
+        texlive-latex-base \
+        texlive-extra-utils \
+        texlive-latex-extra \
+        biber \
+        chktex \
+        latexmk \
+        make \
+        python3-pygments \
+        python3-pkg-resources \
+        texlive-lang-chinese \
+        texlive-lang-japanese \
     && rm -rf /var/lib/apt/lists/*
 
 #
