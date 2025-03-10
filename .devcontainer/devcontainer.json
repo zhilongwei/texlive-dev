@@ -6,7 +6,8 @@
             "extensions": [
                 "James-Yu.latex-workshop",
                 "github.vscode-pull-request-github",
-                "eamodio.gitlens"
+                "eamodio.gitlens",
+                "streetsidesoftware.code-spell-checker"
             ]
         }
     }
