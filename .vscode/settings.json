@@ -4,5 +4,11 @@
         "editor.formatOnSave": true,
         "editor.wordWrap": "on"
     },
-    "latex-workshop.formatting.latex": "latexindent"
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.latex.outDir": "./tmp",
+    "latex-workshop.hover.preview.mathjax.extensions": [
+        "boldsymbol"
+    ],
+    "latex-workshop.mathpreviewpanel.cursor.enabled": true
 }
